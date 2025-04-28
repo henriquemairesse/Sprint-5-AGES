@@ -1,0 +1,35 @@
+.Footer {
+    background-color: #585858;
+    width: 100vw;
+    height: 15vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.gitHub {
+    display: flex;
+    flex-direction: column;
+}
+
+.gitHub a {
+    display: block;
+}
+
+.gitHubImage {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.textGitHub {
+    margin-top: 1vh;
+    text-align: center; 
+    font-size: 3vh;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: I;
+}
