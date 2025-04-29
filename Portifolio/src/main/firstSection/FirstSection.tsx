@@ -4,9 +4,7 @@ function FirstSection() {
   return (
     <>
       <div className='FirstSection'>
-        <p>
-          Oi
-        </p>
+        <p>Henrique Mairesse</p>
       </div>
     </>
   )

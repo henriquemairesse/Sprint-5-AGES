@@ -7,8 +7,7 @@ import ThirdSection from './main/thirdSection/ThirdSection.tsx'
 function App() {
   return (
     <>
-      <header>    
-
+      <header>
       </header>
       <main>
         <div>

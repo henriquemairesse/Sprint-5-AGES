@@ -1,7 +1,8 @@
 .SecondSection {
     background-image: linear-gradient( 180deg, #7580F4, #2B26B4);
     width: 100vw;
-    height: 70vh;
+    min-height: 70vh;
+    height: fit-content;
     box-sizing: border-box;
     margin: 0;
     padding: 1vh;
