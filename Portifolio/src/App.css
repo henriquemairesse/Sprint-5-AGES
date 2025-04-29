@@ -15,4 +15,14 @@
   height: 10vh;
   background-color: #292929;
   box-sizing: border-box;
+  align-content: center;
+}
+
+.copyRight {
+  margin-top: 1vw;
+  text-align: center; 
+  font-size: 1vw;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
 }

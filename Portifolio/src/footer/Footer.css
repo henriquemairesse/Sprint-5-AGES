@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-24pt-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter/Inter-24pt-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 .Footer {
     background-color: #585858;
     width: 100vw;
@@ -9,27 +25,134 @@
     justify-content: center;
     display: flex;
 }
+
 .gitHub {
+    margin-top: 3vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
-
 .gitHub a {
     display: block;
 }
-
 .gitHubImage {
     width: 5vw;
     height: 5vw;
     border-radius: 50%;
     object-fit: cover;
 }
-
 .textGitHub {
-    margin-top: 1vh;
+    margin-top: 1vw;
     text-align: center; 
-    font-size: 3vh;
+    font-size: 2vw;
     color: #FFFFFF;
     font-weight: bold;
-    font-family: I;
+    font-family: 'Inter', sans-serif;
 }
+
+.whatsApp {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.whatsApp a {
+    display: block;
+}
+.whatsAppImage {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.textWhatsApp {
+    margin-top: 1vw;
+    text-align: center; 
+    font-size: 2vw;
+    color: #00FF00;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.linkedIn {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.linkedIn a {
+    display: block;
+}
+.linkedInImage {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.textLinkedIn {
+    margin-top: 1vw;
+    text-align: center; 
+    font-size: 2vw;
+    color: #56A3FB;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.eMail {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.eMail a {
+    display: block;
+}
+.eMailImage {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.textEMail {
+    margin-top: 1vw;
+    text-align: center; 
+    font-size: 2vw;
+    color: #FF0004;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.curriculo {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.curriculo a {
+    display: block;
+}
+.curriculoIcon {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.textCurriculo {
+    margin-top: 1vw;
+    text-align: center; 
+    font-size: 2vw;
+    color: #FF8800;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
