@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Inter';
     src: url('/fonts/Inter/Inter_24pt-Regular.ttf') format('ttf');
     font-weight: 400;
@@ -6,13 +6,15 @@
     font-display: swap;
 }
   
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
 @font-face {
     font-family: 'Inter';
-    src: url('/fonts/Inter/Inter_24pt-Bold.ttf') format('ttf');
+    src: url('/fonts/Inter/Inter_24pt-Regular.ttf') format('ttf');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 body {
     margin: 0;

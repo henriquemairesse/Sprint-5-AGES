@@ -1,17 +1,17 @@
 .emptyOne {
-  width: 100vw;
+  width: 100%;
   height: 20vh;
   background-image: linear-gradient(180deg, #B15EF0, #7580F4);
   box-sizing: border-box;
 }
 .emptyTwo {
-  width: 100vw;
+  width: 100%;
   height: 20vh;
   background-image: linear-gradient(180deg, #2B26B4, #481B6B);
   box-sizing: border-box;
 }
 .emptyThree {
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   background-color: #292929;
   box-sizing: border-box;
@@ -27,6 +27,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-.main {
+main {
   margin-top: 5vw;
 }

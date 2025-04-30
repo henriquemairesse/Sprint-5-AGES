@@ -11,7 +11,7 @@ function App() {
       <header>
         <Header />
       </header>
-      <main className='main'>
+      <main>
         <div>
           <FirstSection />
           <div className='emptyOne' />

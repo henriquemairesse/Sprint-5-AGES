@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
 .Header {
     background-color: #481B6B;
-    width: 100vw;
+    width: 100%;
     height: 5vw;
     margin: 0;
     padding: 1vh;
@@ -24,7 +26,7 @@
     margin-left: 1vw;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
-
+    font-weight: 600;
 }
 
 .HeaderImage {
@@ -40,7 +42,7 @@
     padding: 0;
     margin: 0;
     display: flex; 
-    gap: 10vw; 
+    gap: 5vw; 
     align-content: flex-end;
     margin-right: 5vw;
 }
@@ -50,4 +52,6 @@
     color: #FFFFFF;
     font-style: normal;
     text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
 }

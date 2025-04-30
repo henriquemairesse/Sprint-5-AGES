@@ -20,7 +20,7 @@ function Header() {
       <div className='Header'>
         <div className='HeaderMe'>
           <img className='HeaderImage' src='./images/avatar.png' alt='Foto de Perfil'/>
-          <p className='HeaderText' style={{ fontFamily: 'Inter, sans-serif' }}>Henrique Mairesse</p>
+          <p className='HeaderText'>Henrique Mairesse</p>
         </div>
         <nav>
           <ul>
