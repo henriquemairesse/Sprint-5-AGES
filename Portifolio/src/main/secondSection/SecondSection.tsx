@@ -3,7 +3,7 @@ import './SecondSection.css'
 function SecondSection() {
   return (
     <>
-      <div className='SecondSection'>
+      <div className='SecondSection' id='SecondSection'>
         <p>
           Oi
         </p>

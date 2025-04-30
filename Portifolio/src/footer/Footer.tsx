@@ -16,7 +16,7 @@ function Footer() {
         { url: "https://google.com", image: "./images/linkedInImage.png", alt: "Icon LinkedIn", cor: "#56A3FB", text: "LinkedIn"  },
         { url: "https://google.com", image: "./images/eMailImage.png", alt: "Icon E-Mail", cor: "#FF0004", text: "E-Mail"  },
         { url: "https://google.com", image: "./images/curriculoIcon.png", alt: "Icon Curriculo", cor: "#FF8800", text: "Currículo"  },
-      ];
+    ];
 
     return (
         <>

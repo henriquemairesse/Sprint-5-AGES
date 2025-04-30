@@ -3,7 +3,7 @@ import './FirstSection.css'
 function FirstSection() {
   return (
     <>
-      <div className='FirstSection'>
+      <div className='FirstSection' id='FirstSection'>
         <p>Henrique Mairesse</p>
       </div>
     </>

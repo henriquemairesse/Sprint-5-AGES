@@ -1,13 +1,37 @@
-import './Footer.css'
+import Section from '../components/Section'
+import './Header.css'
 
-function Footer() {
+interface ItensData {
+  section: string;
+  text: string;
+}
+
+function Header() {
+
+  const itens: ItensData[] = [
+    { section: "#FirstSection", text: "Sobre Mim"  },
+    { section: "#SecondSection", text: "Techs"  },
+    { section: "#ThirdSection", text: "Projetos"  },
+    { section: "#Footer", text: "Contato"  },
+  ];
+
   return (
     <>
       <div className='Header'>
-        
+        <div className='HeaderMe'>
+          <img className='HeaderImage' src='./images/avatar.png' alt='Foto de Perfil'/>
+          <p className='HeaderText' style={{ fontFamily: 'Inter, sans-serif' }}>Henrique Mairesse</p>
+        </div>
+        <nav>
+          <ul>
+            {itens.map((item) => (
+              <Section section={item.section} text={item.text}/>
+            ))}
+          </ul>
+        </nav>
       </div>
     </>
   )
 }
 
-export default Footer
+export default Header
