@@ -1,0 +1,8 @@
+{
+    "Techs": {
+        "DiscordJs": {
+            "title": "DiscordJs",
+            "description": "Uma biblioteca para facilitar o uso da DiscordAPI no JavaScript "
+        }
+    }
+}
