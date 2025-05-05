@@ -2,7 +2,21 @@
     "Techs": {
         "DiscordJs": {
             "title": "DiscordJs",
-            "description": "Uma biblioteca para facilitar o uso da DiscordAPI no JavaScript "
+            "description": "Discord.js é uma biblioteca poderosa para Node.js que permite interagir com a API do Discord com facilidade. Ele adota uma abordagem mais orientada a objetos do que a maioria das outras bibliotecas em JS para o Discord.",
+            "src": "./images/discordJsImage.png",
+            "alt": "DiscordJs"
+        },
+        "JavaScript": {
+            "title": "JavaScript",
+            "description": "JavaScript®(JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, conhecida principalmente como uma linguagem de script para páginas Web, mas também é usada em outros ambientes. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos.",
+            "src": "./images/javaScriptImage.png",
+            "alt": "JavaScript"
+        },
+        "NodeJs": {
+            "title": "NodeJS",
+            "description": "Node.js® é um ambiente de execução de JavaScript multiplataforma, de código-aberto e gratuita, que permite aos programadores criar servidores, aplicações da Web, ferramentas de linha de comando e programas de automação de tarefas.",
+            "src": "./images/nodeJsImage.png",
+            "alt": "NodeJS"
         }
     }
 }

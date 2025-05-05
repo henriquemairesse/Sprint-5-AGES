@@ -1,13 +1,14 @@
 import techsDataImport from '../assets/techs.json';
 
 interface Itens {
-    src: string;
     tech: string;
 }
 
 interface TechDetails {
     title: string;
     description: string;
+    src: string;
+    alt: string;
 }
 
 interface TechCategory {
@@ -21,10 +22,10 @@ interface AllTechs {
 // Se você estiver importando diretamente no .ts file:
 const techsData = techsDataImport as AllTechs;
 
-const DivIcon: React.FC<Itens> = ({ src, tech }) => {
+const TechsIcon: React.FC<Itens> = ({ tech }) => {
     const handleClick = () => {
-        const title = document.getElementById('SecondSectionDescTitle');
-        const description = document.getElementById('SecondSectionDescDesc');
+        const title = document.getElementById('SecondSectionTitle');
+        const description = document.getElementById('SecondSectionDesc');
         if (title && description) {
             const techInfo = techsData.Techs[tech];
 
@@ -34,12 +35,19 @@ const DivIcon: React.FC<Itens> = ({ src, tech }) => {
             } 
         }
     };
+    const techInfo = techsData.Techs[tech];
 
     return (
         <>
-            <img className="TechsIcon" src={src} onClick={handleClick} />
+            {techInfo ? (
+                <img className="TechsIcon" src={techInfo.src} alt={techInfo.alt} onClick={() => handleClick()} />
+            ) : (
+                <p>Ícone não disponível para {tech}</p>
+                // Ou outro fallback que você preferir
+            )}
         </>
+
     );
 };
 
-export default DivIcon;
+export default TechsIcon;

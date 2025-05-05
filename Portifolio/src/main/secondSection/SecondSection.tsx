@@ -1,6 +1,22 @@
+import TechsIcon from '../../components/TechsIcon'
 import './SecondSection.css'
 
+interface ItensData {
+  tech: string;
+}
+
 function SecondSection() {
+
+  const itensMain: ItensData[] = [
+    { tech: "DiscordJs" },
+    { tech: "JavaScript" },
+    { tech: "NodeJs" }
+  ];
+
+  const itensOther: ItensData[] = [
+    { tech: "" },
+  ];
+
   return (
     <>
       <div className='SecondSection' id='SecondSection'>
@@ -8,13 +24,17 @@ function SecondSection() {
           <div className='SecondSectionMainTechs'>
             <p className='SecondSectionMainTechsTitle'>Main Techs</p>
             <div className='SecondSectionMainTechsIcons'>
-              
+              {itensMain.map((item) => (
+                <TechsIcon tech={item.tech} />
+              ))}
             </div>
           </div>
           <div className='SecondSectionOtherTechs'>
             <p className='SecondSectionOtherTechsTitle'>Other Techs</p>
             <div className='SecondSectionOtherTechsIcons'>
-              
+              {itensOther.map((item) => (
+                <TechsIcon tech={item.tech} />
+              ))}
             </div>
           </div>
         </div>
