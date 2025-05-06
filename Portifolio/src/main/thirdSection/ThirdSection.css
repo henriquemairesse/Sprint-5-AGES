@@ -7,4 +7,112 @@
     margin: 0;
     padding: 1vh;
     scroll-margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.ThirdSectionTitle {
+    margin-top: 2vw;
+    margin-left: 15vw;
+    font-size: 5vw;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    color: #FFAE00;
+    text-shadow:
+        -0.125vw -0.125vw 0 #000000,
+        0.125vw -0.125vw 0 #000000,
+        -0.125vw 0.125vw 0 #000000,
+        0.125vw 0.125vw 0 #000000; 
+}
+
+.ProjectDiv {
+    margin-top: -2.5vw;
+    margin-bottom: 5vw;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 80vw;
+    height: fit-content;
+}
+
+.projectCard {
+    width: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: fit-content;
+    background-color: #7B7B7B;
+    opacity: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px; 
+    border-radius: 2.5vw;
+    border: 0.25vw solid #000000;
+    position: relative;
+}
+
+.projectCardHeader {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1vw;
+    align-items: center;
+    height: 7.5vw;
+}
+
+.projectCardImage {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+
+.projectCardTitle {
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.projectCardExpanded {
+    height: 17.5vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.projectCardDescription {
+    height: 12.5vw;
+}
+
+.projectCardLinks {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-bottom: auto;
+    width: 100%;
+}
+.linkGithub {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    font-size: 1vw;
+    align-self: flex-start;
+}
+
+.linkProjeto {
+    margin-left: 1.5vw;
+}
+
+.projectCardButton {
+    position: absolute;
+    bottom: -1vw;
+    width: 2vw;
+    height: 2vw;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.25vw solid #000000;
+    background-color: #7B7B7B;
 }

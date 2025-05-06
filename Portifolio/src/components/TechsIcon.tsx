@@ -1,4 +1,4 @@
-import techsDataImport from '../assets/techs.json';
+import techsDataImport from '../assets/data.json';
 
 interface Itens {
     tech: string;

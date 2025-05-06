@@ -60,5 +60,15 @@
             "src": "./images/Image.png",
             "alt": ""
         }
+    },
+    "Projects": {
+        "Teste": {
+            "titulo": "Projeto Hipotético",
+            "descricao": "Uma descrição imaginária deste projeto.",
+            "imagemSrc": "./images/htmlImage.png",
+            "alt": "projectImage",
+            "linkGithub": "https://github.com/seu-usuario/hipotetico",
+            "linkProjeto": "https://projetohipotetico.com"
+        }
     }
 }
