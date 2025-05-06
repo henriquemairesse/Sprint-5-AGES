@@ -123,9 +123,9 @@
 }
 
 .TechsIcon {
-    width: calc(30vw / 5 - 1.5vw);
-    height: calc(30vw / 5 - 1.5vw);
-    margin: 1.5vw;
+    width: calc(35vw / 5 - 2vw);
+    height: calc(35vw / 5 - 2vw);
+    margin: 1vw;
     box-sizing: border-box;
     border-radius: 50%;
     cursor: pointer;

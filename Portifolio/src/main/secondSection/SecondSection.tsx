@@ -8,13 +8,19 @@ interface ItensData {
 function SecondSection() {
 
   const itensMain: ItensData[] = [
-    { tech: "DiscordJs" },
     { tech: "JavaScript" },
-    { tech: "NodeJs" }
+    { tech: "Java" },
+    { tech: "NodeJs" },
+    { tech: "DiscordJs" },
+    { tech: "MongoDb" },
+
   ];
 
   const itensOther: ItensData[] = [
-    { tech: "" },
+    { tech: "TypeScript" },
+    { tech: "Html" },
+    { tech: "ReactJs" },
+    { tech: "NestJs" },
   ];
 
   return (
