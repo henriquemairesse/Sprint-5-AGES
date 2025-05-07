@@ -9,10 +9,10 @@ interface ItensData {
 function Header() {
 
   const itens: ItensData[] = [
-    { section: "#FirstSection", text: "Sobre Mim"  },
-    { section: "#SecondSection", text: "Techs"  },
-    { section: "#ThirdSection", text: "Projetos"  },
-    { section: "#Footer", text: "Contato"  },
+    { section: "FirstSection", text: "Sobre Mim"  },
+    { section: "SecondSection", text: "Techs"  },
+    { section: "ThirdSection", text: "Projetos"  },
+    { section: "Footer", text: "Contato"  },
   ];
 
   return (
@@ -25,7 +25,7 @@ function Header() {
         <nav>
           <ul>
             {itens.map((item) => (
-              <Section section={item.section} text={item.text}/>
+              <Section sectionId={item.section} text={item.text}/>
             ))}
           </ul>
         </nav>

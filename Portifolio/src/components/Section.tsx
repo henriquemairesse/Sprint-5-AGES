@@ -1,14 +1,17 @@
+import React from 'react';
+import { Link } from 'react-scroll';
+
 interface Itens {
-    section: string;
-    text: string;
+  sectionId: string; // Renomeei para sectionId para clareza
+  text: string;
 }
 
-const Section: React.FC<Itens> = ({ section, text }) => {
-    return (
-        <>
-            <li><a className="Section" href={section}>{text}</a></li>
-        </>
-    );
-  };
+const Section: React.FC<Itens> = ({ sectionId, text }) => {
+  return (
+    <li>
+      <Link activeClass="active" to={sectionId} smooth={true} duration={500} offset={-5 * (window.innerWidth / 100)} className="Section">{text}</Link>
+    </li>
+  );
+};
 
-export default Section
+export default Section;

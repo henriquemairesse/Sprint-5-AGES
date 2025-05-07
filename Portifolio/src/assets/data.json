@@ -64,11 +64,11 @@
     "Projects": {
         "ConversorMoedas": {
             "titulo": "Conversor de Moedas",
-            "descricao": "Um conversor de moedas simples que utiliza API para fazer a conversão.\nTecnologias utilizadas: HTML, JavaScript e CSS.",
-            "imagemSrc": "./images/htmlImage.png",
+            "descricao": "Um conversor de moedas simples que utiliza API para fazer a conversão.\nTecnologias utilizadas: JavaScript, HTML e CSS.",
+            "imagemSrc": "./images/javaScriptImage.png",
             "alt": "HTML",
             "linkGithub": "https://github.com/hmpuc/Sprint2-AGES",
-            "linkProjeto": ""
+            "linkProjeto": "https://conversordemoedas.midev.com.br"
         },
         "CRUDExpress": {
             "titulo": "CRUD - Express",
@@ -80,7 +80,7 @@
         },
         "BackendUsersNestJs": {
             "titulo": "Backend de Usuários - NestJS",
-            "descricao": "Um programa feito em NestJS para ser usado como backend em um site de usuários e com acesso a salas. Possuí níveis de acesso, autenticação JWT, criação de crachá, senha em hash, entre outros.\nTecnologias utilizadas: TypeScript, NestJS, Prisma, PostgreSQL e Docker.",
+            "descricao": "Um programa feito em NestJS para ser usado como backend em um site de usuários e com acesso a salas. Possuí níveis de acesso, autenticação JWT, criação de crachá, senha em hash, entre outros.\nTecnologias utilizadas: NestJS, TypeScript, Prisma, PostgreSQL e Docker.",
             "imagemSrc": "./images/nestJsImage.png",
             "alt": "NestJS",
             "linkGithub": "https://github.com/hmpuc/Sprint-4-AGES",
@@ -92,7 +92,7 @@
             "imagemSrc": "./images/htmlImage.png",
             "alt": "HTML",
             "linkGithub": "https://github.com/henriquemairesse/Mi_TranscriptViewer",
-            "linkProjeto": ""
+            "linkProjeto": "https://mitranscriptviewer.midev.com.br/Arquivos/example.html"
         },
         "Example": {
             "titulo": "",

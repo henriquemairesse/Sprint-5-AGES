@@ -21,7 +21,7 @@ function App() {
         </div>
       </main>
       <footer>  
-        <Footer />
+      <Footer />
         <div className='emptyThree' id='Footer'>
           <p className='copyRight'>© {new Date().getFullYear()} Henrique Mairesse. Todos os direitos reservados.</p>
         </div>
