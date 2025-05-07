@@ -6,7 +6,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 1vh;
-    scroll-margin-top: 5vw;
     display: flex;
     flex-direction: column;
 }
@@ -78,38 +77,27 @@
 }
 
 .projectCardExpanded {
-    /* Remova ou comente o 'display: flex' inicial */
-    /* display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center; */
-
-    /* Defina uma altura inicial de 0 e overflow hidden */
     height: 0;
     overflow: hidden;
-    transition: height 0.3s ease-in-out; /* Adiciona a transição para a altura */
-
-    /* Mantenha os outros estilos que você precisa */
+    transition: height 0.3s ease-in-out; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 1vw; /* Adicione algum padding para o conteúdo aparecer suavemente */
+    padding-top: 1vw; 
     padding-bottom: 1vw;
-    margin-top: 1vw; /* Adicione margem para separar do cabeçalho */
 }
 
-/* Adicione uma classe para quando a seção estiver expandida */
 .projectCardExpanded.expanded {
-    height: 17.5vw; /* A altura desejada quando expandida */
+    height: 17.5vw;
 }
 
 .projectCardDescription {
-    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    height: 12.5vw;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
     font-family: 'Inter', sans-serif;
     font-size: 1vw;
-    margin-bottom: 1vw; /* Adicione margem inferior para separar dos links */
+    margin-bottom: 1vw; 
 }
 
 .projectCardLinks {
@@ -118,9 +106,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-bottom: 1vw; /* Adicione margem inferior para espaçamento */
+    margin-bottom: 1vw;
 }
-
   
 .linkGithub {
     width: calc(50% - 1vw);
@@ -146,7 +133,6 @@
     margin-left: 0.5vw;
 }
   
-
 .projectCardLinks > a:only-child {
     margin-left: 0;
     margin-right: 0;
@@ -164,4 +150,15 @@
     border: 0.25vw solid #000000;
     background-color: #7B7B7B;
     cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .ThirdSectionTitle {
+        align-self: center;
+        margin-left: 0;
+    }
+    .ProjectDiv {
+        flex-direction: column;
+    }
+
 }

@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 1vh;
-    scroll-margin-top: 5vw;
     display: flex;
     flex-direction: column;
     
@@ -98,4 +97,26 @@
 
 .FirstSectionMainButton:hover {
     transform: scale(1.2); 
+}
+
+@media (max-width: 700px) {
+    .FirstSection {
+        height: fit-content;
+    }
+    .FirstSectionMainOne {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .DivFirstSectionMainOneImage {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .FirstSectionMainOneDescription {
+        margin-top: 0;
+    }
+    .FirstSectionMainButton {
+        margin-top: 0;
+    }
 }
