@@ -1,0 +1,106 @@
+{
+    "Techs": {
+        "DiscordJs": {
+            "title": "DiscordJS",
+            "description": "Discord.js é uma biblioteca poderosa para Node.js que permite interagir com a API do Discord com facilidade. Ele adota uma abordagem mais orientada a objetos do que a maioria das outras bibliotecas em JS para o Discord.",
+            "src": "./images/discordJsImage.png",
+            "alt": "DiscordJs"
+        },
+        "JavaScript": {
+            "title": "JavaScript",
+            "description": "JavaScript(JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos.",
+            "src": "./images/javaScriptImage.png",
+            "alt": "JavaScript"
+        },
+        "NodeJs": {
+            "title": "NodeJS",
+            "description": "Node.js é um ambiente de execução de JavaScript multiplataforma, de código-aberto e gratuita, que permite aos programadores criar servidores, aplicações da Web, ferramentas de linha de comando e programas de automação de tarefas.",
+            "src": "./images/nodeJsImage.png",
+            "alt": "NodeJS"
+        },
+        "MongoDb": {
+            "title": "MongoDB",
+            "description": "MongoDB é um programa popular de gerenciamento de banco de dados NoSQL de código aberto usado para armazenar e gerenciar grandes quantidades de dados. É conhecido por seu esquema flexível, abordagem orientada a documentos e alto desempenho no tratamento de grandes conjuntos de dados.",
+            "src": "./images/mongoDbImage.png",
+            "alt": "MongoDB"
+        },
+        "Java": {
+            "title": "Java",
+            "description": "Java é uma linguagem de programação orientada a objetos amplamente utilizada por todo o globo. É conhecida por ser multiplataforma, o que significa que o código Java pode ser executado em diferentes sistemas operacionais sem modificações, além de ser rápida, segura e confiável.",
+            "src": "./images/javaImage.png",
+            "alt": "Java"
+        },
+        "NestJs": {
+            "title": "NestJS",
+            "description": "NestJS é um framework Node.js progressivo, escrito em TypeScript, usado para construir aplicações backend eficientes, escaláveis e confiáveis. Ele é baseado em princípios de programação orientada a objetos, funcional e reativa, e oferece uma arquitetura modular que facilita a organização e manutenção do código.",
+            "src": "./images/nestJsImage.png",
+            "alt": "NestJS"
+        },
+        "ReactJs": {
+            "title": "ReactJS",
+            "description": "React é um framework JavaScript que é usado para criar interfaces de usuário (UI) em aplicativos web. Utiliza um paradigma de componentes, o que significa que a UI é dividida em pequenas unidades reutilizáveis e encapsuladas que gerenciam seu próprio estado.",
+            "src": "./images/reactJsImage.png",
+            "alt": "ReactJS"
+        },
+        "TypeScript": {
+            "title": "TypeScript",
+            "description": "TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático de JavaScript, que adiciona tipagem estática ao código. O TypeScript utiliza a sintaxe do JavaScript, mas permite a definição de tipos para as variáveis e funções.",
+            "src": "./images/typeScriptImage.png",
+            "alt": "TypeScript"
+        },
+        "Html": {
+            "title": "HTML",
+            "description": "HTML, é a linguagem de marcação padrão para a criação de páginas web. Define a estrutura e o significado do conteúdo, como textos, imagens e links. O HTML permite que desenvolvedores organizem o conteúdo de forma lógica e visual, proporcionando uma experiência rica aos usuários.",
+            "src": "./images/htmlImage.png",
+            "alt": "HTML"
+        },
+        "Example": {
+            "title": "",
+            "description": "",
+            "src": "./images/Image.png",
+            "alt": ""
+        }
+    },
+    "Projects": {
+        "ConversorMoedas": {
+            "titulo": "Conversor de Moedas",
+            "descricao": "Um conversor de moedas simples que utiliza API para fazer a conversão.\nTecnologias utilizadas: JavaScript, HTML e CSS.",
+            "imagemSrc": "./images/javaScriptImage.png",
+            "alt": "HTML",
+            "linkGithub": "https://github.com/hmpuc/Sprint2-AGES",
+            "linkProjeto": "https://conversordemoedas.midev.com.br"
+        },
+        "CRUDExpress": {
+            "titulo": "CRUD - Express",
+            "descricao": "Um programa feito em ExpressJS para funcionar como backend de uma página de avaliações de filmes.\nTecnologias utilizadas: TypeScript, ExpressJS, Prisma e SQLite.",
+            "imagemSrc": "./images/typeScriptImage.png",
+            "alt": "TypeScript",
+            "linkGithub": "https://github.com/hmpuc/Sprint3-AGES",
+            "linkProjeto": ""
+        },
+        "BackendUsersNestJs": {
+            "titulo": "Backend de Usuários - NestJS",
+            "descricao": "Um programa feito em NestJS para ser usado como backend em um site de usuários e com acesso a salas. Possuí níveis de acesso, autenticação JWT, criação de crachá, senha em hash, entre outros.\nTecnologias utilizadas: NestJS, TypeScript, Prisma, PostgreSQL e Docker.",
+            "imagemSrc": "./images/nestJsImage.png",
+            "alt": "NestJS",
+            "linkGithub": "https://github.com/hmpuc/Sprint-4-AGES",
+            "linkProjeto": ""
+        },
+        "VisualizadorArquivosHTML": {
+            "titulo": "Visualizador de arquivos HTML",
+            "descricao": "Um programa que pode ser configurado para visualisar arquivos em html, originalmente desenvolvido para hospedar arquivos html criados com as mensagens de um canal de discord.\nTecnologias utilizadas: HTML.",
+            "imagemSrc": "./images/htmlImage.png",
+            "alt": "HTML",
+            "linkGithub": "https://github.com/henriquemairesse/Mi_TranscriptViewer",
+            "linkProjeto": "https://mitranscriptviewer.midev.com.br/Arquivos/example.html"
+        },
+        "Example": {
+            "titulo": "",
+            "descricao": "",
+            "imagemSrc": "./images/.png",
+            "alt": "",
+            "linkGithub": "",
+            "linkProjeto": ""
+        }
+    }
+}

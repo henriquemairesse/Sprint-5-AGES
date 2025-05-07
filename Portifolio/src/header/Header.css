@@ -1,0 +1,55 @@
+.Header {
+    background-color: #481B6B;
+    width: 100%;
+    height: 5vw;
+    margin: 0;
+    padding: 1vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
+}
+
+.HeaderMe {
+    align-items: center;
+    display: flex;
+}
+
+.HeaderText {
+    font-size: 2vw;
+    margin-left: 1vw;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.HeaderImage {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1vw;
+}
+
+.Header nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 5vw; 
+    align-content: flex-end;
+    margin-right: 5vw;
+}
+
+.Section {
+    font-size: 1.5vw;
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
