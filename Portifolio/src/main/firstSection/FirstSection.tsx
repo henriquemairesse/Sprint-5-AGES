@@ -1,6 +1,22 @@
 import './FirstSection.css'
 
 function FirstSection() {
+
+  function gerarIntroducao() {
+    const agora = new Date();
+    const hora = agora.getHours();
+  
+    if (hora >= 0 && hora < 12) {
+      return "Bom dia";
+    } else if (hora >= 12 && hora < 18) {
+      return "Boa tarde";
+    } else {
+      return "Boa noite";
+    }
+  }
+  
+  const introducao = gerarIntroducao();
+
   return (
     <>
       <div className='FirstSection' id='FirstSection'>
@@ -8,10 +24,9 @@ function FirstSection() {
         <div className='FirstSectionMain'>
           <div className='FirstSectionMainOne'>
             <p className='FirstSectionMainOneDescription'>
-              ubaruowaeyxbuwhr ogseihogicupiwaechrt9pvmichr pumpertr
-              wethtrstbvyjdrhtseretsrrynkuybjdhrvtsgr thstegwaserjd yterwee
-              3wseytwsedrnjtyhrtvsgrcs56rutjyhrteethsrsvsbytundjbhtvrgcerdtnfughgunyufbtdrfesdrstdyfunghg
-              wesrtdyfugyuybftvdrcsesrftnuiyuuybtvcre              
+              {introducao}, eu sou um estudante de Ciência da Programação que gosta principalmente do BackEnd. Sou fascinado por lógica e achar solução para problemas,
+               estou sempre disposto a encarar um bom desafio. No momento, estou procurando apreender e aprimorar minhas habilidades de programação e desenvolvimento
+               de software.  
             </p>
             <div className='DivFirstSectionMainOneImage'>
               <img className='FirstSectionMainOneImage' src='./images/avatar.png' alt='Foto de Perfil'></img>

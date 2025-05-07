@@ -52,4 +52,11 @@
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
+    display: inline-block; 
+    transform-origin: center; 
+    transition: transform 0.15s ease-in-out;
+}
+
+.Section:hover {
+    transform: scale(1.2); 
 }

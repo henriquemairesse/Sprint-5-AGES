@@ -13,6 +13,7 @@ function ThirdSection() {
     { nomeProjeto: "ConversorMoedas"},
     { nomeProjeto: "CRUDExpress"},
     { nomeProjeto: "BackendUsersNestJs"},
+    { nomeProjeto: "MIDev"},
   ];
 
   return (

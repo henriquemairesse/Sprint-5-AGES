@@ -129,4 +129,9 @@
     box-sizing: border-box;
     border-radius: 50%;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.TechsIcon:hover {
+    transform: scale(1.2);
 }

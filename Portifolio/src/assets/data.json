@@ -94,6 +94,14 @@
             "linkGithub": "https://github.com/henriquemairesse/Mi_TranscriptViewer",
             "linkProjeto": "https://mitranscriptviewer.midev.com.br/Arquivos/example.html"
         },
+        "MIDev": {
+            "titulo": "MI_Dev",
+            "descricao": "Um bot de discord completo feito para a minha comunidade no discord. O bot consta com sistemas de moderação, de sorteios, de tickets, de música e de entreterimento.\nTecnologias utilizadas: JavaScript, DiscordJS, MongoDB, FFmpeg, ExpressJS e HTML.",
+            "imagemSrc": "./images/discordJsImage.png",
+            "alt": "DiscordJs",
+            "linkGithub": "",
+            "linkProjeto": "https://discord.gg/tSWN5ZgS3G"
+        },
         "Example": {
             "titulo": "",
             "descricao": "",

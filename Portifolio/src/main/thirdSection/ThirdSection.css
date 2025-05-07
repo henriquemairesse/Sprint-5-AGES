@@ -36,7 +36,8 @@
 }
 
 .projectCard {
-    width: 20vw;
+    box-sizing: border-box;
+    width: calc(100% / 3 - 5vw);
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     margin-bottom: 5vw;
@@ -56,7 +57,10 @@
     flex-direction: row;
     margin-left: 1vw;
     align-items: center;
+    width: 100%;
     height: 7.5vw;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 .projectCardImage {
@@ -66,7 +70,7 @@
 }
 
 .projectCardTitle {
-    margin-left: 0.5vw;
+    width: calc(100% - 7.5vw);
     font-size: 1.5vw;
     font-family: 'Inter', sans-serif;
     color: #000000;
