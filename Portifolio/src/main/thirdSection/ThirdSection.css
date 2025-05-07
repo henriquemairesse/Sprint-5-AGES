@@ -78,19 +78,38 @@
 }
 
 .projectCardExpanded {
-    height: 17.5vw;
-    display: flex;
+    /* Remova ou comente o 'display: flex' inicial */
+    /* display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center; */
+
+    /* Defina uma altura inicial de 0 e overflow hidden */
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out; /* Adiciona a transição para a altura */
+
+    /* Mantenha os outros estilos que você precisa */
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    padding-top: 1vw; /* Adicione algum padding para o conteúdo aparecer suavemente */
+    padding-bottom: 1vw;
+    margin-top: 1vw; /* Adicione margem para separar do cabeçalho */
+}
+
+/* Adicione uma classe para quando a seção estiver expandida */
+.projectCardExpanded.expanded {
+    height: 17.5vw; /* A altura desejada quando expandida */
 }
 
 .projectCardDescription {
-    height: 12vw;
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
     margin-left: 1.5vw;
     margin-right: 1.5vw;
     font-family: 'Inter', sans-serif;
     font-size: 1vw;
+    margin-bottom: 1vw; /* Adicione margem inferior para separar dos links */
 }
 
 .projectCardLinks {
@@ -99,7 +118,9 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-bottom: 1vw; /* Adicione margem inferior para espaçamento */
 }
+
   
 .linkGithub {
     width: calc(50% - 1vw);
