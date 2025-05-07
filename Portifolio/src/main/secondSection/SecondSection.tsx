@@ -22,7 +22,9 @@ function SecondSection() {
     { tech: "ReactJs" },
     { tech: "NestJs" },
   ];
-
+  {itensMain.map((item) => (
+    <TechsIcon tech={item.tech} />
+  ))}
   return (
     <>
       <div className='SecondSection' id='SecondSection'>

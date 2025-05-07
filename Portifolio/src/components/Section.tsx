@@ -1,8 +1,7 @@
-import React from 'react';
 import { Link } from 'react-scroll';
 
 interface Itens {
-  sectionId: string; // Renomeei para sectionId para clareza
+  sectionId: string; 
   text: string;
 }
 

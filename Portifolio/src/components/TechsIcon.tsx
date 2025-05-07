@@ -16,10 +16,9 @@ interface TechCategory {
 }
 
 interface AllTechs {
-    Techs: TechCategory; // Ajuste aqui para corresponder à estrutura do seu JSON
+    Techs: TechCategory; 
 }
 
-// Se você estiver importando diretamente no .ts file:
 const techsData = techsDataImport as AllTechs;
 
 const TechsIcon: React.FC<Itens> = ({ tech }) => {
@@ -43,7 +42,6 @@ const TechsIcon: React.FC<Itens> = ({ tech }) => {
                 <img className="TechsIcon" src={techInfo.src} alt={techInfo.alt} onClick={() => handleClick()} />
             ) : (
                 <p>Ícone não disponível para {tech}</p>
-                // Ou outro fallback que você preferir
             )}
         </>
 

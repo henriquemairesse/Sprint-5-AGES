@@ -58,6 +58,8 @@
     max-height: 17.5vw;
     margin-top: -6vw;
     font-size: 1vw;
+    color: #FFFFFF;
+    line-height: 1.5;
 }
 
 .FirstSectionMainOneSubImage {
@@ -91,4 +93,9 @@
     align-items: center; 
     text-decoration: underline; 
     outline: 0.05vw solid #000000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.FirstSectionMainButton:hover {
+    transform: scale(1.2); 
 }

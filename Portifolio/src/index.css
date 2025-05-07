@@ -3,10 +3,6 @@ body {
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 @font-face {
     font-family: 'Inter';
     src: url('./assets/fonts/Inter/Inter_18pt-Thin.ttf');    
