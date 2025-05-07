@@ -50,7 +50,7 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
                         rel="noopener noreferrer"
                         className="linkGithub"
                     >
-                        Link do Projeto
+                        Repositório
                     </a>
                     )}
                     {projeto.linkProjeto && (
@@ -66,9 +66,8 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
                 </div>
             </div>
         )}
-        <button className="projectCardButton" onClick={toggleExpand}>
-          {expanded ? '▲' : '▼'}
-        </button>
+        <img className="projectCardButton" src="./images/arrowButtonImage.png" style={{ 
+          transform: `rotate(${expanded ? 180 : 0}deg)`, transition: 'transform 0.3s ease-in-out' }} onClick={toggleExpand}/>
     </div>
   )
 }

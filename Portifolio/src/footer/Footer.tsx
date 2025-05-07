@@ -11,10 +11,10 @@ interface ItensData {
 
 function Footer() {
     const itens: ItensData[] = [
-        { url: "https://google.com", image: "./images/gitHubImage.png", alt: "Icon GitHub", cor: "#FFFFFF", text: "GitHub"  },
-        { url: "https://google.com", image: "./images/whatsAppImage.png", alt: "Icon WhatsApp", cor: "#00FF00", text: "WhatsApp"  },
+        { url: "https://github.com/henriquemairesse", image: "./images/gitHubImage.png", alt: "Icon GitHub", cor: "#FFFFFF", text: "GitHub"  },
+        { url: "https://wa.me/+5551998658160", image: "./images/whatsAppImage.png", alt: "Icon WhatsApp", cor: "#00FF00", text: "WhatsApp"  },
         { url: "https://google.com", image: "./images/linkedInImage.png", alt: "Icon LinkedIn", cor: "#56A3FB", text: "LinkedIn"  },
-        { url: "https://google.com", image: "./images/eMailImage.png", alt: "Icon E-Mail", cor: "#FF0004", text: "E-Mail"  },
+        { url: "mailto:hvmkiki@gmail.com", image: "./images/eMailImage.png", alt: "Icon E-Mail", cor: "#FF0004", text: "E-Mail"  },
         { url: "https://google.com", image: "./images/curriculoIcon.png", alt: "Icon Curriculo", cor: "#FF8800", text: "Currículo"  },
     ];
 

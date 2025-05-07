@@ -9,7 +9,10 @@ interface ItensData {
 function ThirdSection() {
 
   const itens: ItensData[] = [
-    { nomeProjeto: "Teste"},
+    { nomeProjeto: "VisualizadorArquivosHTML"},
+    { nomeProjeto: "ConversorMoedas"},
+    { nomeProjeto: "CRUDExpress"},
+    { nomeProjeto: "BackendUsersNestJs"},
   ];
 
   return (

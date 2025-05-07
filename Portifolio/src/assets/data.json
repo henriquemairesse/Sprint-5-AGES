@@ -62,13 +62,45 @@
         }
     },
     "Projects": {
-        "Teste": {
-            "titulo": "Projeto Hipotético",
-            "descricao": "Uma descrição imaginária deste projeto.",
+        "ConversorMoedas": {
+            "titulo": "Conversor de Moedas",
+            "descricao": "Um conversor de moedas simples que utiliza API para fazer a conversão.\nTecnologias utilizadas: HTML, JavaScript e CSS.",
             "imagemSrc": "./images/htmlImage.png",
-            "alt": "projectImage",
-            "linkGithub": "https://github.com/seu-usuario/hipotetico",
-            "linkProjeto": "https://projetohipotetico.com"
+            "alt": "HTML",
+            "linkGithub": "https://github.com/hmpuc/Sprint2-AGES",
+            "linkProjeto": ""
+        },
+        "CRUDExpress": {
+            "titulo": "CRUD - Express",
+            "descricao": "Um programa feito em ExpressJS para funcionar como backend de uma página de avaliações de filmes.\nTecnologias utilizadas: TypeScript, ExpressJS, Prisma e SQLite.",
+            "imagemSrc": "./images/typeScriptImage.png",
+            "alt": "TypeScript",
+            "linkGithub": "https://github.com/hmpuc/Sprint3-AGES",
+            "linkProjeto": ""
+        },
+        "BackendUsersNestJs": {
+            "titulo": "Backend de Usuários - NestJS",
+            "descricao": "Um programa feito em NestJS para ser usado como backend em um site de usuários e com acesso a salas. Possuí níveis de acesso, autenticação JWT, criação de crachá, senha em hash, entre outros.\nTecnologias utilizadas: TypeScript, NestJS, Prisma, PostgreSQL e Docker.",
+            "imagemSrc": "./images/nestJsImage.png",
+            "alt": "NestJS",
+            "linkGithub": "https://github.com/hmpuc/Sprint-4-AGES",
+            "linkProjeto": ""
+        },
+        "VisualizadorArquivosHTML": {
+            "titulo": "Visualizador de arquivos HTML",
+            "descricao": "Um programa que pode ser configurado para visualisar arquivos em html, originalmente desenvolvido para hospedar arquivos html criados com as mensagens de um canal de discord.\nTecnologias utilizadas: HTML.",
+            "imagemSrc": "./images/htmlImage.png",
+            "alt": "HTML",
+            "linkGithub": "https://github.com/henriquemairesse/Mi_TranscriptViewer",
+            "linkProjeto": ""
+        },
+        "Example": {
+            "titulo": "",
+            "descricao": "",
+            "imagemSrc": "./images/.png",
+            "alt": "",
+            "linkGithub": "",
+            "linkProjeto": ""
         }
     }
 }
