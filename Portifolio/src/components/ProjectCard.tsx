@@ -17,6 +17,7 @@ interface ProjetoProps {
 const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
   const [expanded, setExpanded] = useState(false);
   const [projeto, setProjeto] = useState<ProjetoData | undefined>(undefined);
+  const [isHovering, setIsHovering] = useState(false);
 
   useEffect(() => {
     const projetoEncontrado = (data.Projects as Record<string, ProjetoData>)[
@@ -67,7 +68,8 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
             </div>
         )}
         <img className="projectCardButton" src="./images/arrowButtonImage.png" style={{ 
-          transform: `rotate(${expanded ? 180 : 0}deg)`, transition: 'transform 0.3s ease-in-out' }} onClick={toggleExpand}/>
+          transform: `rotate(${expanded ? 180 : 0}deg) scale(${isHovering ? 1.15 : 1}) `, transition: 'transform 0.3s ease-in-out' }}
+          onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)} onClick={toggleExpand}/>
     </div>
   )
 }
