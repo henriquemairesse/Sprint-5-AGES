@@ -60,3 +60,12 @@
 .Section:hover {
     transform: scale(1.2); 
 }
+
+@media (max-width: 700px) {
+    .Header {
+        height: 10vw;
+    }
+    .HeaderText {
+        
+    }
+}
