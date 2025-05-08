@@ -19,7 +19,7 @@ function ThirdSection() {
   return (
     <>
       <div className='ThirdSection' id='ThirdSection'>
-        <p className='ThirdSectionTitle'>Portifólio</p>
+        <p className='ThirdSectionTitle'>Projetos</p>
         <div className='ProjectDiv'>
           {itens.map((item) => (
                 <ProjectCard nomeProjeto={item.nomeProjeto} />
