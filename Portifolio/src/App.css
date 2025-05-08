@@ -35,4 +35,13 @@ main {
   main {
     margin-top: 10vw;
   }
+  .emptyOne {
+    height: 10vh;
+  }
+  .emptyTwo {
+    height: 10vh;
+  }
+  .emptyThree {
+    height: 5vh; 
+  }
 }

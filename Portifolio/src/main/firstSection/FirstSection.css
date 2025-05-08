@@ -131,9 +131,11 @@
         height: fit-content;
         max-width: 80vw;
         max-height: none;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     .FirstSectionMainButton {
         margin-top: 0;
+        width: 50vw;
+        height: 17.5vw;
     }
 }
