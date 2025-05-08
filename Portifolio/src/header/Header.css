@@ -67,13 +67,15 @@
         height: 10vw;
     }
     .HeaderText {
+        margin-left: 5vw;
         font-size: 4vw;
     }
     .HeaderImage {
-        width: 5vw;
-        height: 5vw;
+        width: 7.5vw;
+        height: 7.5vw;
     }
     .Section {
         font-size: 3vw;
+        text-align: center;
     }
 }
