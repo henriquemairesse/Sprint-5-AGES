@@ -43,6 +43,7 @@
     gap: 5vw; 
     align-content: flex-end;
     margin-right: 5vw;
+    justify-content: center;
 }
 
 .Section {
@@ -77,6 +78,5 @@
     .Section {
         font-size: 3vw;
         text-align: center;
-        align-content: center;
     }
 }
