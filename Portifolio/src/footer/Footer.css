@@ -9,7 +9,6 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
-    scroll-margin-top: 5vw;
 }
 
 .divIcon {
@@ -41,4 +40,28 @@
 
 .divIcon:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+    .Footer {
+        height: 20vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .divIcon {
+        margin-top: 1.5vw;
+        width: calc(90% / 5 - 6vw);
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .divImage {
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+    .divText {
+        font-size: 3vw;
+    }
 }
