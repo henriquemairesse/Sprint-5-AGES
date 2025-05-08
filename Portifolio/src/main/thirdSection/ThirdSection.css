@@ -165,6 +165,7 @@
     }
     .projectCard {
         width: 70vw;
+        border-radius: 7.5vw;
     }
     .projectCardHeader {
         margin-left: 5vw;
