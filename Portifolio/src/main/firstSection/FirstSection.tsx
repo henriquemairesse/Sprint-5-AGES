@@ -24,7 +24,7 @@ function FirstSection() {
         <div className='FirstSectionMain'>
           <div className='FirstSectionMainOne'>
             <p className='FirstSectionMainOneDescription'>
-              {introducao}, eu sou um estudante de Ciência da Programação que gosta principalmente do BackEnd. Sou fascinado por lógica e achar solução para problemas,
+                      {introducao}, eu sou um estudante de Ciência da Programação que gosta principalmente do BackEnd. Sou fascinado por lógica e achar solução para problemas,
                estou sempre disposto a encarar um bom desafio. No momento, estou procurando apreender e aprimorar minhas habilidades de programação e desenvolvimento
                de software.  
             </p>

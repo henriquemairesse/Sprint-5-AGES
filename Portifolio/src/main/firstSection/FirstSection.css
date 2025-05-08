@@ -135,7 +135,8 @@
     }
     .FirstSectionMainButton {
         margin-top: 0;
-        width: 50vw;
-        height: 17.5vw;
+        width: 40vw;
+        height: 15vw;
+        font-size: 5vw;
     }
 }
