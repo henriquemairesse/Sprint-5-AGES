@@ -30,3 +30,9 @@
 main {
   margin-top: 5vw;
 }
+
+@media (max-width: 800px) {
+  main {
+    margin-top: 10vw;
+  }
+}
