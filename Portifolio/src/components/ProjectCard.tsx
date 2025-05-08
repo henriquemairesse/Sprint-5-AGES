@@ -20,7 +20,6 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
   const [isHovering, setIsHovering] = useState(false);
 
   const expandIfIsMobile = () => {
-    console.log(window.innerWidth)
     if (window.innerWidth < 700) {
       toggleExpand();
     }
