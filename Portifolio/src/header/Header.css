@@ -16,6 +16,7 @@
 .HeaderMe {
     align-items: center;
     display: flex;
+    align-content: center;
 }
 
 .HeaderText {
@@ -66,6 +67,13 @@
         height: 10vw;
     }
     .HeaderText {
-        
+        font-size: 5vw;
+    }
+    .HeaderImage {
+        width: 5vw;
+        height: 5vw;
+    }
+    .Section {
+        font-size: 4vw;
     }
 }
