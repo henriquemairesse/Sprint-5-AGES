@@ -103,6 +103,9 @@
     .FirstSection {
         height: fit-content;
     }
+    .FirstSectionName {
+        margin-top: 5vw;
+    }
     .FirstSectionMainOne {
         align-items: center;
         align-content: center;
