@@ -19,6 +19,12 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
   const [projeto, setProjeto] = useState<ProjetoData | undefined>(undefined);
   const [isHovering, setIsHovering] = useState(false);
 
+  const expandIfIsMobile = () => {
+    if (window.innerWidth < 700) {
+      toggleExpand();
+    } 
+  }
+
   useEffect(() => {
     const projetoEncontrado = (data.Projects as Record<string, ProjetoData>)[
       nomeProjeto
@@ -35,7 +41,7 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
   }
 
   return (
-    <div className='projectCard'>
+    <div className='projectCard' onClick={expandIfIsMobile}>
       <div className='projectCardHeader'>
         <img src={projeto.imagemSrc} alt={projeto.alt} className="projectCardImage" ></img>
         <p className='projectCardTitle'>{projeto.titulo}</p>
