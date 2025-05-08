@@ -122,6 +122,9 @@
         width: 40vw;
         height: 40vw;
     }
+    .FirstSectionMainOneSubImage {
+        font-size: 5vw;
+    }
     .FirstSectionMainOneDescription {
         margin-top: 0;
         text-align: left;
