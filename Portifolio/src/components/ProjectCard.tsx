@@ -22,7 +22,6 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
   const expandIfIsMobile = () => {
     console.log(window.innerWidth)
     if (window.innerWidth < 700) {
-      console.log('cheguei')
       toggleExpand();
     }
   }
