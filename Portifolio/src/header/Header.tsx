@@ -19,7 +19,7 @@ function Header() {
     <>
       <div className='Header'>
         <div className='HeaderMe'>
-          <img className='HeaderImage' src='./images/avatar.png' alt='Foto de Perfil'/>
+          <img className='HeaderImage' src='/portfolio/images/avatar.png' alt='Foto de Perfil'/>
           <p className='HeaderText'>Henrique Mairesse</p>
         </div>
         <nav>

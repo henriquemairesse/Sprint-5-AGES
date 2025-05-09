@@ -73,7 +73,7 @@ const ProjectCard: React.FC<ProjetoProps> = ({ nomeProjeto }) => {
       </div>
       <img
         className="projectCardButton"
-        src="./images/arrowButtonImage.png"
+        src="/portfolio/images/arrowButtonImage.png"
         style={{
           transform: `rotate(${expanded ? 180 : 0}deg) scale(${isHovering ? 1.2 : 1})`,
           transition: 'transform 0.3s ease-in-out',

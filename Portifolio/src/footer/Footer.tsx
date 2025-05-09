@@ -11,11 +11,11 @@ interface ItensData {
 
 function Footer() {
     const itens: ItensData[] = [
-        { url: "https://github.com/henriquemairesse", image: "./images/gitHubImage.png", alt: "Icon GitHub", cor: "#FFFFFF", text: "GitHub"  },
-        { url: "https://wa.me/+5551998658160", image: "./images/whatsAppImage.png", alt: "Icon WhatsApp", cor: "#00FF00", text: "WhatsApp"  },
-        { url: "https://google.com", image: "./images/linkedInImage.png", alt: "Icon LinkedIn", cor: "#56A3FB", text: "LinkedIn"  },
-        { url: "mailto:hvmkiki@gmail.com", image: "./images/eMailImage.png", alt: "Icon E-Mail", cor: "#FF0004", text: "E-Mail"  },
-        { url: "https://google.com", image: "./images/curriculoIcon.png", alt: "Icon Curriculo", cor: "#FF8800", text: "Currículo"  },
+        { url: "https://github.com/henriquemairesse", image: "/portfolio/images/gitHubImage.png", alt: "Icon GitHub", cor: "#FFFFFF", text: "GitHub"  },
+        { url: "https://wa.me/+5551998658160", image: "/portfolio/images/whatsAppImage.png", alt: "Icon WhatsApp", cor: "#00FF00", text: "WhatsApp"  },
+        { url: "https://google.com", image: "/portfolio/images/linkedInImage.png", alt: "Icon LinkedIn", cor: "#56A3FB", text: "LinkedIn"  },
+        { url: "mailto:hvmkiki@gmail.com", image: "/portfolio/images/eMailImage.png", alt: "Icon E-Mail", cor: "#FF0004", text: "E-Mail"  },
+        { url: "https://google.com", image: "/portfolio/images/curriculoIcon.png", alt: "Icon Curriculo", cor: "#FF8800", text: "Currículo"  },
     ];
 
     return (
