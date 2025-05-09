@@ -65,12 +65,12 @@
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
     font-weight: 600;
-    text-shadow:
-        -0.025vw -0.025vw 0 #000000,
-        0.025vw -0.025vw 0 #000000,
-        -0.025vw 0.025vw 0 #000000,
-        0.025vw 0.025vw 0 #000000;
     text-align: center;
+    text-shadow:
+    -0.025vw -0.025vw 0 #000000,
+    0.025vw -0.025vw 0 #000000,
+    -0.025vw 0.025vw 0 #000000,
+    0.025vw 0.025vw 0 #000000;
 }
 
 .FirstSectionMainButton {
@@ -78,13 +78,13 @@
     align-self: center;
     width: 10vw;
     height: 3.5vw;
-    background-color: #B8860B;
+    background-color: #FFAE00;
     border: none;
     border-radius: 5vw;
     font-size: 1.75vw;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     display: flex; 
     justify-content: center;
@@ -138,6 +138,5 @@
         width: 35vw;
         height: 12.5vw;
         font-size: 5vw;
-        background-color: #E68A00;
     }
 }
