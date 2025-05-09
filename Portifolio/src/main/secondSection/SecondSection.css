@@ -150,7 +150,7 @@
     }
     .SecondSectionMainTechsTitle {
         font-size: 10vw;
-        color: #EEC900;
+        color: #FFC800;
     }
     .SecondSectionOtherTechs {
         width: 80vw;
@@ -158,13 +158,13 @@
     }
     .SecondSectionOtherTechsTitle {
         font-size: 10vw;
-        color: #EEC900;
+        color: #FFC800 ;
     }
     .SecondSectionDesc {
         margin-right: 0;
         width: 80vw;
         height: 45vw;
-        background-color: #E0CE00;
+        background-color: #EEC900;
     }
     .SecondSectionDescTitle {
         font-size: 6.5vw;
