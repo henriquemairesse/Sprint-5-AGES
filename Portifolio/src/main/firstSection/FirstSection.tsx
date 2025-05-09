@@ -29,7 +29,7 @@ function FirstSection() {
                de software.  
             </p>
             <div className='DivFirstSectionMainOneImage'>
-              <img className='FirstSectionMainOneImage' src='./images/avatar.png' alt='Foto de Perfil'></img>
+              <img className='FirstSectionMainOneImage' src='/portfolio/images/avatar.png' alt='Foto de Perfil'></img>
               <p className='FirstSectionMainOneSubImage'>Cursando Ciência da<br/>Computação - PUCRS</p>
             </div>
           </div>
