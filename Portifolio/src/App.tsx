@@ -14,15 +14,13 @@ function App() {
       <main>
         <div>
           <FirstSection />
-          <div className='emptyOne' />
           <SecondSection />
-          <div className='emptyTwo' />
           <ThirdSection />
         </div>
       </main>
       <footer>  
       <Footer />
-        <div className='emptyThree' id='Footer'>
+        <div className='emptyOne' id='Footer'>
           <p className='copyRight'>© {new Date().getFullYear()} Henrique Mairesse. Todos os direitos reservados.</p>
         </div>
      </footer>

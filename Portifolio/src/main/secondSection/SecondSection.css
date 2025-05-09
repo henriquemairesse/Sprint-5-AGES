@@ -1,5 +1,5 @@
 .SecondSection {
-    background-image: linear-gradient( 180deg, #7580F4, #2B26B4);
+    background-image: linear-gradient(180deg, #283593, #1A237E); /* background-image: linear-gradient(180deg, #3F51B5, #283593); */
     width: 100%;
     min-height: 40vw;
     height: fit-content;
@@ -36,7 +36,7 @@
     font-size: 4vw;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    color: #FFFF00;
+    color: #B8860B;
     margin-left: 2vw;
     margin-right: 2vw;
     text-align: center;
@@ -67,7 +67,7 @@
     font-size: 4vw;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    color: #FFFF00;
+    color: #B8860B;
     margin-left: 2vw;
     margin-right: 2vw;
     text-align: center;
@@ -94,7 +94,7 @@
     min-height: 35vw;
     align-items: center;
     flex-direction: column;
-    background-color: #E0CE00;
+    background-color: #B8860B  ;
     align-content: center;
     margin-right: 10vw;
     border-radius: 5vw;
