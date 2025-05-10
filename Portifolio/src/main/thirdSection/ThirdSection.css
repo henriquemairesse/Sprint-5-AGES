@@ -1,5 +1,5 @@
 .ThirdSection {
-    background-image: linear-gradient(180deg, #481B6B, #7B1FA2);
+    background-color: #1A0023;
     width: 100%;
     min-height: 40vw;
     height: fit-content;
@@ -17,7 +17,7 @@
     font-size: 5vw;
     font-weight: 800;
     font-family: 'Inter', sans-serif;
-    color: #FFAE00;
+    color: #D1A2D1 ;
     text-shadow:
         -0.125vw -0.125vw 0 #000000,
         0.125vw -0.125vw 0 #000000,

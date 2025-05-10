@@ -1,5 +1,5 @@
 .FirstSection {
-    background-image: linear-gradient(180deg, #481B6B, #7B1FA2);
+    background-color: #1A0023 ;
     width: 100%;
     height: 40vw;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
     font-weight: 800;
     font-family: 'Inter', sans-serif;
     align-self: center;
-    color: #FFAE00;
+    color: #D1A2D1   ;
     text-shadow:
         -0.125vw -0.125vw 0 #000000,
         0.125vw -0.125vw 0 #000000,
@@ -56,14 +56,14 @@
     max-height: 17.5vw;
     margin-top: -6vw;
     font-size: 1vw;
-    color: #FFFFFF;
+    color: #A59AA3  ;
     line-height: 1.5;
 }
 
 .FirstSectionMainOneSubImage {
     font-size: 2vw;
     font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
+    color: #A59AA3  ;
     font-weight: 600;
     text-align: center;
     text-shadow:
@@ -78,12 +78,12 @@
     align-self: center;
     width: 10vw;
     height: 3.5vw;
-    background-color: #FFAE00;
+    background-color: #7A4D9C ;
     border: none;
     border-radius: 5vw;
     font-size: 1.75vw;
     font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
+    color: #1A0023  ;
     font-weight: 500;
     cursor: pointer;
     display: flex; 
